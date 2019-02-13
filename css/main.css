@@ -25,6 +25,7 @@
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5;
+    
 }
 .header{
     background: #2c3e50;
@@ -76,12 +77,14 @@
 }
 .star{
     width: 240px;
+    height: auto;
     border:none;
-    border-top: solid .25rem;
+    border-top: solid .25em;
     margin-top: 1em;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
+    overflow: visible;
 }
 .star::after {
     position: relative;
@@ -114,9 +117,17 @@
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    margin-bottom: 65px;
+}
+.content-portfolio{
+    display: flex;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image-portfolio{
-    width: 350px;
+    width: 290px;
+    height: 210px;
     padding-right: 15px;
     padding-left: 15px;
     margin-bottom: 30px;
