@@ -8,6 +8,17 @@
 .text-dark{
     color: #2c3e50;
 }
+.bg-blue{
+    background-color: #18bc9c;
+}
+.white-star{
+    border-color: #fff;
+    color: #fff;
+}
+.dark-star{
+    border-color: #2c3e50;
+    color: #2c3e50;
+}
 .home{
     font-family: 'Montserrat', sans-serif;
     font-family: 'Lato', sans-serif;
@@ -39,7 +50,6 @@
     letter-spacing: 1px;
 }
 .logo{
-    color: white;
     font-size: 2em;
     margin-right: 220px;
 }
@@ -55,7 +65,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #18bc9c;
 }
 .image-profile{
     margin-top: 97px;
@@ -69,7 +78,6 @@
     width: 240px;
     border:none;
     border-top: solid .25rem;
-    border-color: #fff;
     margin-top: 1em;
     margin-bottom: 0px;
     margin-left: auto;
@@ -84,12 +92,74 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 2em;
-    color: #fff;
+}
+.white-star::after{
     background-color: #18bc9c;
+}
+.dark-star::after{
+    background-color: #fff;
 }
 .profile-sub{
     font-family: 'Lato';
     font-size: 1.75em;
     font-weight: 300;
     margin-bottom: 70px;
+}
+.title-portfolio{
+    font-size: 3em;
+    font-weight: 700;
+    padding-top: 1.7em ;
+}
+.images-portfolio{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.image-portfolio{
+    width: 350px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+.about, .contact-me{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 85px 0;
+}
+.title-about, .title-contact{
+    font-size: 3em;
+    font-weight: 900;
+}
+.text-about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.text{
+    width: 350px;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.white-text{
+    font-size: 1.25em;
+    font-weight: 300;
+}
+.button{
+    background-color: #18bc9c;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-border-white{
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+.btn-download{
+    align-self: center;
+    padding: 0.8em 1.10em;
+    font-size: 1.25em;
+    width: 190px;
+}
+.fa-download{
+    margin-right: 15px;
 }
