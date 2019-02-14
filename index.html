@@ -9,12 +9,12 @@
     <title>Freelancer</title>
   </head>
   <body class="home">
-    <header class="header">
+    <header class="header flex bg-dark">
       <div class="logo text-uppercase text-white">
         Start Bootstrap
       </div>
       <nav>
-        <ul class="nav-list text-uppercase">
+        <ul class="nav-list text-uppercase flex">
           <a href="#"><li>portfolio</li></a>
           <a href="#"><li>about</li></a>
           <a href="#"><li>contact</li></a>
@@ -22,17 +22,17 @@
       </nav>
     </header>
     <main class="container">
-    <section class="profile bg-blue">
+    <section class="profile bg-blue flex">
       <img class="image-profile" src="assets/images/profile.png" alt="perfil">
       <h1 class="title-profile text-white text-uppercase">Start Bootstrap</h1>
-      <hr class="star white-star">
+      <hr class="star white-star center">
       <h2 class="profile-sub text-white">Web Developer - Graphic Artist - User Experience Designer</h2>
     </section>
     <section>
       <h2 class="title-portfolio text-dark text-uppercase">portfolio</h2>
-      <hr class="star dark-star">
-      <section class="content-portfolio">
-      <section class="images-portfolio">
+      <hr class="star dark-star center">
+      <section class="content-portfolio flex center">
+      <section class="images-portfolio flex">
         <img class="image-portfolio" src="assets/images/portfolio/cabin.png" alt="cabana">
         <img class="image-portfolio" src="assets/images/portfolio/cake.png" alt="bolo">
         <img class="image-portfolio" src="assets/images/portfolio/circus.png" alt="circo">
@@ -42,25 +42,59 @@
       </section>
       </section>
     </section>
-    <section class="about bg-blue">
+    <section class="about bg-blue flex">
         <h2 class="title-about text-white text-uppercase">about</h1>
-        <hr class="star white-star">
-        <section class="text-about">
+        <hr class="star white-star center">
+        <article class="text-about flex">
           <p class="white-text text-white text">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
           <p class="white-text text-white text">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-        </section>
-        <a class="button btn-border-white btn-download" href="#">
+        </article>
+        <a class="button btn-border-white btn-download bg-blue" href="#">
           <i class="fas fa-download"></i>
           Download Now!
         </a>
       </section>
-    <section class="contact-me">
+    <section class="contact-me flex">
       <h2 class="title-contact text-dark text-uppercase">contact me</h2>
-      <hr class="star dark-star">
+      <hr class="star dark-star center">
+      <form class="form-group flex flex-column form-contact center" autocomplete="off">
+        <input class="form-item" type="text" name="name" placeholder="Name">
+        <input class="form-item" type="email" name="email" placeholder="Email Address">
+        <input class="form-item" type="text" name="phone" placeholder="Phone Number">
+        <textarea class="form-item message-area" name="message" cols="102" rows="5" placeholder="Message"></textarea>
+        <button class="button bg-blue btn-send">Send</button>
+      </form>
     </section>
     </main>
-    <footer>
-      rodape
+    <footer class="bg-dark centralizar titles-footer">
+      <section class="container-footer flex">
+        <section class="footer-item">
+          <h4 class="text-uppercase text-white">Location</h4>
+          <p class="text-white">2215 John Daniel Drive</p>
+          <p class="text-white">Clark, MO 65243</p>
+        </section>
+        <section class="footer-item text-white">
+            <h4 class="text-uppercase">Around the Web</h4>
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fab fa-fw fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fab fa-google-plus-g"></i></a>
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <i class="fab fa-dribbble"></i></a>
+        </section>
+        <section class="footer-item text-white">
+            <h4 class="text-uppercase">About Freelancer</h4>
+            <p>Freelance is a free to use, open source Bootstrap theme created by
+                <a class="link-bootstrap" href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+        </section>
+      </section>
     </footer>
+    <section class="bg-night text-white copyright">
+        <span>Copyright © Your Website 2019</span>
+    </section>
   </body>
 </html>
