@@ -15,7 +15,7 @@
     background: #2c3e50;
 }
 .bg-night{
-    background-color: #1a252f;;
+    background-color: #1a252f;
 }
 .white-star{
     border-color: #fff;
@@ -39,17 +39,20 @@
     text-align: center;
 }
 h1, h2, h3, h4{
-    font-weight: bolder;
-    font-size: 3rem;
+    font-size: 3em;
 }
 .home{
     font-family: 'Montserrat', 'Lato', sans-serif;
 }
 .header{
-    flex-flow: row wrap;
     justify-content: space-around;
     height: 6.5625em;
     align-items: center;
+}
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    width: 71.25em;
 }
 .text-uppercase{
     text-transform: uppercase;
@@ -62,16 +65,18 @@ h1, h2, h3, h4{
     padding-right: 3.125em;
 }
 .logo, .nav-list{
-    font-weight: 800;
     letter-spacing: .0625em;
 }
 .logo{
     font-size: 2em;
-    margin-right: 13.75em;
 }
 .nav-list a{
     text-decoration: none;
     color: white;
+}
+.nav-list a:hover{
+    color: #18bc9c;
+    transition: .3s;
 }
 .container{
     text-align: center;
@@ -115,8 +120,7 @@ h1, h2, h3, h4{
 }
 .profile-sub{
     font-family: 'Lato';
-    font-size: 1.75em;
-    font-weight: 300;
+    font-size: 1.7em;
     margin-bottom: 3.375em;
 }
 .title-portfolio{
@@ -133,7 +137,7 @@ h1, h2, h3, h4{
     margin-bottom: 4.0625em;
 }
 .image-portfolio{
-    width: 350px;
+    width: 21.875em;
     height: 15.75em;
     margin-bottom: 1.875em;
 }
@@ -153,16 +157,16 @@ h1, h2, h3, h4{
     padding-left: .9375em;
 }
 .text{
-    width: 350px;
+    font-family: 'Lato';
+    width: 21.875em;
     text-align: left;
     font-size: 1.25em;
-    font-weight: 300;
 }
 .button{
     text-decoration: none;
     color: #fff;
     font-size: 1.25em;
-    border-radius: .25rem;
+    border-radius: .25em;
 }
 .btn-border-white{
     border: 2px solid #fff;
@@ -174,22 +178,27 @@ h1, h2, h3, h4{
 .fa-download{
     margin-right: .9375em;
 }
+.btn-download:hover{
+    background-color: #fff;
+    color: #1a252f;
+    transition: .3s;
+}
 .form-group{
-    width: 760px;
-    height: 608px;
+    width: 47.5em;
+    height: 38em;
+    margin-bottom: 1.4em;
 }
 .form-item{
     border: none;
-    width: 730px;
-    height: 80px;
+    width: 45.625em;
+    height: 5em;
     border-bottom: 1px solid #e9ecef;
-    padding-bottom: .5rem;
+    padding-bottom: .5em;
     margin-bottom: 0;
     font-size: 1.5em;
-    font-weight: 500;
     padding-left: 0;
     color: #495057;
-    font-family: inherit;
+    font-family: 'Lato';
 }
 .form-item:focus{
     outline: none;
@@ -197,68 +206,73 @@ h1, h2, h3, h4{
 .message-area{
     height: auto;
     padding: 1.2em 0;
-    font-weight: 400;
     line-height: 1.5;
     padding-left: 0;
 }
 .btn-send{
     border: none;
-    width: 103px;
-    height: 66px;
-    margin-top: 25px;
+    width: 5.1805em;
+    height: 5.425em;
+    margin-top: 1.5625em;
+    cursor: pointer;
+}
+.btn-send:hover{
+    background-color: #128f76;
+    border-color: #128f76;
+    transition: .3s;
 }
 .container-footer{
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 5em;
 }
 .footer-item{
-    width: 380px;
-    font-size: 1.1rem;
-    font-weight: 500;
+    width: 23.75em;
+    font-size: 1.1em;
     line-height: 1.5;
 }
-.titles-footer h4{
-    font-size: 1.5rem;
-    margin-top: 77px;
-    margin-bottom: 30px;
-    font-weight: 700;
+.text-footer{
+    font-family: 'Lato';
 }
-.btn-social {
+.titles-footer h4{
+    font-size: 1.5em;
+    margin-top: 3.4125em;
+    margin-bottom: 1.5em;
+}
+.social-media{
     display: inline-block;
-
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1.25em;
+    line-height: 2em;
     cursor: pointer;
     border: 2px solid white;
-    padding: .5em .7em;
-}
-.rounded-circle {
-    border-radius: 50%;
-}
-.btn-outline-light {
+    padding: .2em .55em;
+    margin: 0 5px;
     color: #f8f9fa;
-}
-.btn {
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
     background-color: transparent;
-
+    cursor: pointer;
 }
-a {
-    text-decoration: none;
+.circle{
+    border-radius: 50%;
 }
-.fa-facebook-f:before {
-    content: "\f39e";
+.social-media:hover{
+    background-color: #f8f9fa;
+    color: #1a252f;
+    transition: .3s;
 }
 .link-bootstrap{
+    text-decoration: none;
     color: #18bc9c;
 }
+.link-bootstrap:hover{
+    text-decoration: underline;
+    color: #128f76;
+}
 .copyright{
-    height: 72px;
-    line-height: 72px;
+    height: 5.6em;
+    line-height: 5.6;
     font-size: 0.8em;
-    font-weight: lighter;
+    font-weight:100;
     text-align: center;
 }
 
