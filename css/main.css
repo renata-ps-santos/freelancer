@@ -245,11 +245,8 @@ h1, h2, h3, h4{
     cursor: pointer;
     border: 2px solid white;
     padding: .2em .55em;
-    margin: 0 5px;
+    margin: 0  0.3125em;
     color: #f8f9fa;
-    text-align: center;
-    vertical-align: middle;
-    background-color: transparent;
     cursor: pointer;
 }
 .circle{
@@ -275,5 +272,3 @@ h1, h2, h3, h4{
     font-weight:100;
     text-align: center;
 }
-
-
