@@ -38,8 +38,8 @@
 
 
 *Foram criadas algumas classes reutilizáveis como: 
--text-white, text-dark
--bg-blue, bg-dark, bg-night (background-color)
--white-star, dark-star (cores para a estrela)
--flex (display: flex;)
--center(margens automáticas)
+*text-white, text-dark
+*bg-blue, bg-dark, bg-night (background-color)
+*white-star, dark-star (cores para a estrela)
+*flex (display: flex;)
+*center(margens automáticas)
