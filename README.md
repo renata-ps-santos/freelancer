@@ -4,6 +4,10 @@
 * **Curso:** _Criando um site interativo_
 * **Unidad:** _Layout da Web com HTML & CSS_
 
+# Link Freelancer
+
+* https://renata-ps-santos.github.io/freelancer/
+
 ## Objetivo
 
 * Replicar o site Freelancer original o mais fielmente possível
