@@ -30,7 +30,7 @@
 
 * Os ícones das redes sociais foram encontrados em [Font Awesome](http://fontawesome.io/).
 
-* Para o sublinhado com estrela foi usado o pseudo-elemento ::after com position relative pasa posicionar a estrela sob a tag <hr>, criando assim o efeito desejado de uma estrelha entre duas linhas.
+* Para o sublinhado com estrela foi usado o pseudo-elemento ::after com position relative pasa posicionar a estrela sob a tag `<hr>`, criando assim o efeito desejado de uma estrelha entre duas linhas.
 
 * Para o portfólio de imagens foram usados flexbox e espaçamentos.
 
