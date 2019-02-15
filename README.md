@@ -37,9 +37,14 @@
 * Para o form foi usado tags input, textarea e button. O efeito de uma linha só foi feito retirando todas as bordas e editando um estilo apenas para a borda inferior, também foi adicionado paddings e margins para deixar os campos maiores.
 
 
-*Foram criadas algumas classes reutilizáveis como: 
-*text-white, text-dark
-*bg-blue, bg-dark, bg-night (background-color)
-*white-star, dark-star (cores para a estrela)
-*flex (display: flex;)
-*center(margens automáticas)
+* Foram criadas algumas classes reutilizáveis como: 
+
+* text-white, text-dark
+
+* bg-blue, bg-dark, bg-night (background-color)
+
+* white-star, dark-star (cores para a estrela)
+
+* flex (display: flex;)
+
+* center(margens automáticas)
