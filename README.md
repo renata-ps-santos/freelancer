@@ -4,53 +4,38 @@
 * **Curso:** _Criando um site interativo_
 * **Unidad:** _Layout da Web com HTML & CSS_
 
-***
-
-Para completar este desafio, criamos um repositório boilerplate (template inicial) com todos os recursos necessários. Isso inclui imagens, estrutura de pastas e arquivos onde você irá escrever seu código.
-
-## Fluxo de trabalho
-
-1. Faça um [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   deste repositório.
-
-2. Em seguida você deverá **clonar** esse fork em seu computador. Lembre-se do comando `git clone` e de sua estrutura, que normalmente é essa:
-
-   ```bash
-   git clone https://github.com/<nome-de-usuario>/freelancer.git
-   ```
-
 ## Objetivo
 
-O desafio consiste em replicar o site **Freelancer** e o resultado desejado é este:
+* Replicar o site Freelancer original o mais fielmente possível
+* Criar classes reutilizáveis
+* Criar classes com nomes significativos
+* Usar flexbox
+* Usar tags do HTML5
 
-![Freelancer Website](docs/fullpage.png)
 
-## Considerações
+## Conteúdo
 
-* Encontrará um arquivo-base `index.html` no qual deverá escrever a estrutura de seu projeto e linkar seus arquivos de estilo(CSS).
-* Na pasta `css` terá um arquivo-base `main.css` onde você irá adicionar os estilos necessários em seu projeto.
-* Dentro da pasta `assets` se encontra a pasta `images` onde estão todas as imagens necessárias para completar seu projeto.
+* Este repositório possui um arquivo-base `index.html` no qual contém a estrutura do projeto linkado ao arquivo de estilo(CSS).
+* Na pasta `css` tem um arquivo-base `main.css` onde você encntrará os estilos usados no projeto.
+* Dentro da pasta `assets` se encontra a pasta `images` onde estão todas as imagens usadas para projeto.
 
-* Você deverá **atualizar o arquivo `README.md`** explicando o conteúdo de seu repositório.
 
 * Esta página utiliza duas fontes: `Montserrat` e `Lato`.
 
-* A paleta de cores pode ser obtida inspecionando o site original, porém para pouparmos tempo você pode usar as seguintes: `#2c3e50`, `#18bc9c` e `#212529`.
+* A paleta de cores usadas foram: `#2c3e50`, `#18bc9c` e `#212529`.
 
-* Os ícones das redes sociais podem ser encontrados em [Font Awesome](http://fontawesome.io/).
+* Os ícones das redes sociais foram encontrados em [Font Awesome](http://fontawesome.io/).
 
-* Neste desafio, encontrará coisas que possivelmente ainda não viu em classe, como formulários. Não se preocupe, temos certeza que se sairá bem. Aqui ficam algumas dicas:
+* Para o sublinhado com estrela foi usado o pseudo-elemento ::after com position relative pasa posicionar a estrela sob a tag <hr>, criando assim o efeito desejado de uma estrelha entre duas linhas.
 
-  - Para o formulário, revise tags como `form`, `input`, `button`.
+* Para o portfólio de imagens foram usados flexbox e espaçamentos.
 
-* O sublinhado com estrela que aparece em algumas seções do site, no endereço original, foi feita com um ícone e pseudo-elementos (`:after`, `:before`). Este é um desafio divertido, sendo assim não se preocupe em focar nesta parte de início, ma vez que não é o objetivo principal do desafio! :)
+* Para o form foi usado tags input, textarea e button. O efeito de uma linha só foi feito retirando todas as bordas e editando um estilo apenas para a borda inferior, também foi adicionado paddings e margins para deixar os campos maiores.
 
-* Pode conferir o [site original](https://blackrockdigital.github.io/startbootstrap-freelancer/) para que tenha uma ideia do resultado final.
 
-  > Nota: o site original tem certos efeitos e funcionalidades que estão fora do alcance desse desafio. Mantenha o foco em obter um leiaute o mais próximo possível, usando o que aprendemos até agora :)
-
-## Leve em consideração:
-
-* Nomes de classes, ids e etc
-* Indentação
-* Arquivo `README.md` atualizado e escrito corretamente
+*Foram criadas algumas classes reutilizáveis como: 
+-text-white, text-dark
+-bg-blue, bg-dark, bg-night (background-color)
+-white-star, dark-star (cores para a estrela)
+-flex (display: flex;)
+-center(margens automáticas)
