@@ -21,7 +21,7 @@
 
 * Este repositório possui um arquivo-base `index.html` no qual contém a estrutura do projeto linkado ao arquivo de estilo(CSS).
 * Na pasta `css` tem um arquivo-base `main.css` onde você encntrará os estilos usados no projeto.
-* Dentro da pasta `assets` se encontra a pasta `images` onde estão todas as imagens usadas para projeto.
+* Dentro da pasta `assets` se encontra a imagem do perfil e a pasta `images` onde estão todas as imagens usadas para projeto.
 
 
 * Esta página utiliza duas fontes: `Montserrat` e `Lato`.
